@@ -1,0 +1,8 @@
+.zw-button {
+  user-select: none;
+  display: inline-block;
+}
+
+.zw-button + .zw-button {
+  margin-inline-start: 8px;
+}
