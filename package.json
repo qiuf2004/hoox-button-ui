@@ -1,0 +1,34 @@
+{
+  "name": "@linewell/button",
+  "version": "2.2.0",
+  "description": "基于 <用户界面设计语言及交互标准> 扩展 antd 按钮组件，样式，confirm 弹窗，以及异步 loading 状态，默认间距等进行标准化。",
+  "homepage": "",
+  "license": "ISC",
+  "author": "邱凤 <310473308@qq.com>",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "lib",
+    "es"
+  ],
+  "scripts": {
+    "build": "father build",
+    "build:watch": "father dev",
+    "doctor": "father doctor",
+    "prepublishOnly": "father doctor && npm run build"
+  },
+  "devDependencies": {
+    "antd": ">=4.0.0",
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "peerDependencies": {
+    "antd": ">=4.0.0",
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  }
+}
